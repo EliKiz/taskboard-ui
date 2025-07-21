@@ -1,0 +1,37 @@
+{
+  "name": "taskboard-ui",
+  "version": "0.0.1",
+  "description": "A component library for Taskboard",
+  "author": "",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.1",
+    "@mui/material": "7.2.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "28.0.6",
+    "@rollup/plugin-node-resolve": "16.0.1",
+    "@rollup/plugin-terser": "0.4.4",
+    "@rollup/plugin-typescript": "12.1.4",
+    "@types/react": "19.1.8",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "rollup": "4.45.1",
+    "typescript": "5.8.3"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  }
+}
